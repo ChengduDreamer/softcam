@@ -1,4 +1,4 @@
-#include "softcam.h"
+﻿#include "softcam.h"
 
 #include <olectl.h>
 #include <initguid.h>
@@ -16,7 +16,7 @@ namespace {
 
 // Setup data
 
-const wchar_t FILTER_NAME[] = L"DirectShow Softcam";
+const wchar_t FILTER_NAME[] = L"Mivo Camera"; // "DirectShow Softcam"
 const GUID &FILTER_CLASSID = CLSID_DShowSoftcam;
 
 const AMOVIESETUP_MEDIATYPE s_pin_types[] =
